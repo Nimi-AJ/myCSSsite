@@ -1,0 +1,120 @@
+header {
+    color: black;
+    background-color: #e4572e;
+   
+    }
+
+header h1 {
+    font-size: 2em;
+    font-family: "Chelsea Market" , cursive;
+    text-align: center;
+}
+
+header h2 {
+    color: white;
+    font-size: 1rem;
+    font-family: "Gamja Flower" , sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #fffff2;
+}
+
+main article h2 {
+    font-size: 1rem;
+}
+
+.specialone {
+    border: 4px solid #050401;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    
+
+}
+
+.specialtwo {
+    border: 4px solid #050401;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+p {
+    color: black;
+    font-size: 1em;
+}
+
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: indigo;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #fffff2;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer h2 + p {
+    text-align: center;
+}
+
+input[type=text] {
+    background-color: white;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    border: 2px inset white;
+    border-radius: 6%;
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    margin: 0 3px;
+    cursor: pointer;
+  }
+   input[type=submit] {
+    background-color: white;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    border: 1px inset white;
+    border-radius: 6%;
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    margin: 0 3px;
+    cursor: pointer;
+   }
+
+   .coloformone{
+       display: flex;
+       justify-content: center;
+       
+   }
+
+   .coloformtwo{
+       float: left;
+       text-align: center;
+   }
+
+   footer form + p  {
+       font-weight: bold;
+       text-align: center;
+   }
+
+   
